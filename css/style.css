@@ -1,0 +1,40 @@
+body{
+    font-size: cursive, 'trebuchet MS', 'lucida sans unicode', 'lucida grande', 'lucida sans', arial, sans-serif;
+}
+
+.main-color{
+    background-color: rgb(143, 98, 15) !important;
+}
+
+.main-color2{
+    background-color: rgb(202, 149, 50) !important;
+}
+
+
+.banner{
+    height: 80vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../image/ser.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.hovered-card{
+    transition: .3s;
+}
+
+.hovered-card:hover{
+    transform: scale(1.1);
+}
+
+.icon-service{
+    width: 90px;
+    height: 90px;
+    border: solid #fff 2px;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.content-footer{
+    background-color: rgb(143, 98, 15);
+
+}
